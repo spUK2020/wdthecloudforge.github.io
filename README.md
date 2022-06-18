@@ -1,3 +1,15 @@
+---
+title: Read Me!
+description: Read Me
+author: BrianBlanchard
+ms.author: brblanch
+ms.date: 01/25/2022
+ms.topic: conceptual
+ms.service: cloud-adoption-framework
+ms.subservice: general
+ms.custom: internal, operating-model
+---
+
 # Microsoft Azure Documentation
 
 Welcome to the open source [documentation](https://docs.microsoft.com/azure) of [Microsoft Azure](https://azure.microsoft.com). Please review this README file to understand how you can assist in contributing to the Microsoft Azure documentation.
