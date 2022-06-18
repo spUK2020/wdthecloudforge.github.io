@@ -51,6 +51,7 @@ To help you imagine your future state operating model, these articles discuss th
 - [Define your cloud operating model](./define.md)
 - [Compare common cloud operating models](./compare.md)
 - [Implement your operating model with Azure landing zones](../ready/landing-zone/implementation-options.md)
+- [ReadMe](./README.md)
 
 ## Next steps
 
