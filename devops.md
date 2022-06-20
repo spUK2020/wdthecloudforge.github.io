@@ -10,7 +10,7 @@ ms.subservice: general
 ms.custom: internal, operating-model
 ---
 
-# Introduction to the Enterprise Scale Operating Model
+# Azure DevOps Setup and Operating Model
 
 TBD
 
