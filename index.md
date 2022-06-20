@@ -30,12 +30,12 @@ Benefit:
 
 To get started review each of the following:
 
-- [Organisation team structures and roles](./structures-and-roles.md)
-- [Azure DevOps configuration](./devops.md)
-- [Azure Monitoring and Observability configuration](./monitoring.md)
-- [Azure FinOps configuration](./finops.md)
-- [Operational Transformation](./transformation.md)
-- [Examples from the filed](./examples.md)
+- [Organisation team structures and roles](./structures-and-roles.html)
+- [Azure DevOps configuration](./devops.html)
+- [Azure Monitoring and Observability configuration](./monitoring.html)
+- [Azure FinOps configuration](./finops.html)
+- [Operational Transformation](./transformation.html)
+- [Examples from the filed](./examples.html)
 
 ## Next steps
 
