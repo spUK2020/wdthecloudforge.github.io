@@ -35,7 +35,7 @@ To get started review each of the following:
 - [Azure Monitoring and Observability configuration](./monitoring.html)
 - [Azure FinOps configuration](./finops.html)
 - [Operational Transformation](./transformation.html)
-- [Examples from the filed](./examples.html)
+- [Examples from the field](./examples.html)
 
 ## Next steps
 
