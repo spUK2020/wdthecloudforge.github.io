@@ -1,46 +1,22 @@
 ---
 title: Read Me!
 description: Read Me
-author: BrianBlanchard
-ms.author: brblanch
-ms.date: 01/25/2022
+author: William Darnell
+ms.author: wdthecloudforge.com
+ms.date: 06/20/2022
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: general
 ms.custom: internal, operating-model
 ---
 
-# Microsoft Azure Documentation
+# Azure Documentation
 
-Welcome to the open source [documentation](https://docs.microsoft.com/azure) of [Microsoft Azure](https://azure.microsoft.com). Please review this README file to understand how you can assist in contributing to the Microsoft Azure documentation.
+An initiative to define a Microsoft prescriptive operational model/blueprint for Azure.
 
-## Getting Started
+Used for:
 
-Contributing to open source is more than just providing updates, it's also letting us know when there is an issue. Read our [Contributing guidance](.github/CONTRIBUTING.md) to find out more.
+- New Azure customers seeking a place to start
+- Mature Azure customers as a baseline for running a maturity assessment to streamline operations
 
-### Prerequisites
 
-You've decided to contribute, that's great! To contribute to the documentation, you need a few tools.
-
-Contributing to the documentation requires a GitHub account. If you don't have an account, follow the instructions for [GitHub account setup](https://docs.microsoft.com/contribute/get-started-setup-github) from our contributor guide.
-
-#### Download
-
-Install the following tools:
-
-* [Git](https://git-scm.com/download)
-* [Visual Studio Code](https://code.visualstudio.com/Download)
-* [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) extension for Visual Studio Code
-
-#### Install
-
-Follow the instructions provided in the [Install content authoring tools](https://docs.microsoft.com/contribute/get-started-setup-tools) from our contributor guide.
-
-## License
-
-Please refer to [LICENSE](.github/LICENSE), [LICENSE-CODE](.github/LICENSE-CODE) and [ThirdPartyNotices](.github/ThirdPartyNotices.md) for all Licensing information.
-
-## Code of Conduct
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
