@@ -14,6 +14,8 @@ ms.custom: internal, operating-model
 
 TBD
 
+![Team Structure and Roles](./images/team-structure.png)
+
 ## Get Started
 
 TBD
