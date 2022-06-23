@@ -12,7 +12,7 @@ ms.custom: internal, operating-model
 
 # Introduction to the Enterprise Scale Operating Model
 
-An initiative to define a Microsoft prescriptive operational model or blueprint for Azure.
+A proposal for a Microsoft prescriptive operational model for managing Azure environments.
 
 Used for:
 
