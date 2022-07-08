@@ -18,6 +18,10 @@ It is important to identify all of the roles required for operating a cloud envi
 
 ![Team Structure and Roles](./images/team-structure.png)
 
+**Product Owner:** This role owns the backlog for the workload in scope for deployment. Linked to the organisation's business objectives, this role defines the user stories, places them into the backlog and sets their priority. Additionally this role will be continuosly consulted, attending sprint retrospective meetings, to provide feedback against deliverables in order to determine what additional stories may be required. As the voice of the customer, this role will also involve assembly of assoicated customer facing collateral.
+
+**Architect:** This role is responsible for the architectural execution of the backlog.
+
 ## Get Started
 
 TBD
