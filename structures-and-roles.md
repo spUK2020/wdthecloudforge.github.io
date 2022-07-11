@@ -22,6 +22,22 @@ It is important to identify all of the roles required for operating a cloud envi
 
 **Architect:** This role is responsible for the architectural execution of the backlog. This includes identifying all Azure and hybrid services involved in the creation of a complete production workload solution across the entire stack and how these services will work together to achieve the backlog story objectives. This role involves proposing options for Azure services where applicable, identifying all dependencies, documenting these solutions architectures on the wiki and working with the product owner to augment, refine and categorise the user stories on the backlog.
 
+**Application Engineer:** TBD
+
+**Quality Assurance (QA) Engineer:** TBD
+
+**Network Engineer:** TBD
+
+**Security Engineer:** TBD
+
+**Microsoft and Partner Support:** TBD
+
+**Legal Advisory Support:** TBD
+
+**Finance and Procurement Support:** TBD
+
+**Operational Administration Support:** TBD
+
 ## Get Started
 
 TBD
