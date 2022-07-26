@@ -25,13 +25,13 @@ It is important to identify all of the roles required for operating a cloud envi
 **Application Engineer:** This role is responsible for the development, management, configuration and deployment of the software application to the target platform. Additionally this role will be responsible for the configuration and deployment of some associated infrastructure resources. This will involve the deployment of both software applications and associated infrastructure as code using CI/CD pipelines. This role will manage and version control the associated application software, libraries, artifacts, configuration, pipelines and infrastructure as code resources.
 
 **Quality Assurance (QA) Engineer:** 
-This role is responsible for the testing and quality of all releases and associated tools. This encapsulates the responsibility for providing input for "definition of done" quality criteria, automated and manual testing, monitoring and alerting, observability, cost management, code quality (both application and infrastructure pipeline), chaos engineering and associated tools.
+This role is responsible for the testing and quality of all releases and associated tools. This encapsulates the responsibility for providing input for "definition of done" quality criteria, automated and manual testing, monitoring and alerting, observability, cost management, code quality (both application and infrastructure pipeline), chaos engineering and associated tools. This will involve the deployment of the associated test environments as code using CI/CD pipelines.
 
 **Network (Platform) Engineer:** 
-This role is responsible for core platform infrastructure design, development and management. This will typically involve all core platform components including virtual networks, routing, firewalls, DNS, VPN, private connectivity, IP address allocation, DMZ public IP address management, third part connectivity, IDS/IPS solutions and associated infrastructure as code.
+This role is responsible for core platform infrastructure design, development and management. This will typically involve all core platform components including virtual networks, routing, firewalls, DNS, VPN, private connectivity, IP address allocation, DMZ public IP address management, third part connectivity, IDS/IPS solutions and associated infrastructure as code. This will involve the deployment of the associated infrastructure as code using CI/CD pipelines.
 
 **Security Engineer:** 
-TBD
+This role is responsible for all security aspects of delivered workloads against the expected organisation security policies. This role will span the architecture, design of built in security at all levels of the IT stack, through network security, identity and access management, secure resource configuration patterns, application and code security. Additionally this role is responsible for associated security monitoring tools, alerting, dashboards and built in security to all CI/CD deployment pipelines. As for the other roles, security should also be managed through infrastructure as code using CI/CD pipelines. 
 
 **Microsoft and Partner Support:**
 TBD
