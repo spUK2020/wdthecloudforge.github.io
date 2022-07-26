@@ -25,15 +25,15 @@ It is important to identify all of the roles required for operating a cloud envi
 **Application Engineer:** This role is responsible for the development, management, configuration and deployment of the software application to the target platform. Additionally this role will be responsible for the configuration and deployment of some associated infrastructure resources. This will involve the deployment of both software applications and associated infrastructure as code using CI/CD pipelines. This role will manage and version control the associated application software, libraries, artifacts, configuration, pipelines and infrastructure as code resources.
 
 **Quality Assurance (QA) Engineer:** 
-This role is responsible for the testing and quality of releases and the associated tools.
+This role is responsible for the testing and quality of all releases and associated tools. This encapsulates the responsibility for providing input for "definition of done" quality criteria, automated and manual testing, monitoring and alerting, observability, cost management, code quality (both application and infrastructure pipeline), chaos engineering and associated tools.
 
-**Network Engineer:** 
-TBD
+**Network (Platform) Engineer:** 
+This role is responsible for core platform infrastructure design, development and management. This will typically involve all core platform components including virtual networks, routing, firewalls, DNS, VPN, private connectivity, IP address allocation, DMZ public IP address management, third part connectivity, IDS/IPS solutions and associated infrastructure as code.
 
 **Security Engineer:** 
 TBD
 
-**Microsoft and Partner Support:** 
+**Microsoft and Partner Support:**
 TBD
 
 **Legal Advisory Support:** 
