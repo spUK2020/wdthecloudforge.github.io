@@ -47,6 +47,13 @@ TBD
 
 ## Get Started
 
+**Create a Backlog and Board**
+TBD
+
+**Create a Wiki**
+TBD
+
+**Select a CI/CD technology**
 TBD
 
 ## Next steps
