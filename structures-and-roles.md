@@ -47,7 +47,11 @@ TBD
 
 ## Team Organisation
 
-Having identified the key roles, to scale a modern cloud operating model across a large organisation, it is important setup your teams to maximise the benefits of collaboration and agility. A key principle here is to strike the right balance between central process and governance whilst still permitting autonomy within DevOps teams across the organisation.
+Having identified the key roles, to scale a modern cloud operating model across a large organisation, it is important setup your DevOps teams to maximise the benefits of collaboration and agility. A key principle here is to strike the right balance between central process and governance whilst still permitting autonomy within DevOps teams across the organisation. While it may seem obvious to talk about a DevOps team per IT workload and application it is often not quite as simple as that as there are typically a number of core or shared elements that need to be in place for these projects to progress. For example, commercial licensing and enterprise agreements, issuing Azure subscriptions, shared network services and IP address allocation, shared security and monitoring solutions, common development tooling, reusable organisationally compliant resource configuration patterns etc.
+
+As a result, in addition to IT workload and application specific DevOps teams, there are likely to be core cloud DevOps teams to cover these areas. As a starting point there could be the following core DevOps teams.
+
+![Core DevOps Teams](./images/core-devops-teams.png)
 
 ## Get Started
 
