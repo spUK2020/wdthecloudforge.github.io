@@ -37,10 +37,10 @@ This role is responsible for all security aspects of delivered workloads against
 This isn't really a different role as such, more an indicator that organisations that are short on technical staff with the right expertise can seek to engage one of the many Azure cloud partners out there to augment their teams. These partners bring a lot of experience of cloud deployment and management and so can provide a fast start to getting going with a landing zone and operational best practices as well providing first hand education to existing team members. Engineers from partners can fill any of the identified roles. 
 
 **Legal Advisory Support:** 
-TBD
+This is a part-time role that is not attending daily [standups](structures-and-roles.md) like the rest of the full-time members. This role is called out because there will be occasions when support from the legal team is required, relating to associated contracts, IP, terms and conditions etc. 
 
 **Finance and Procurement Support:** 
-TBD
+This is a part-time role that is not attending daily standups.
 
 **Operational Administration Support:** 
 TBD
