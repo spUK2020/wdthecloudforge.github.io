@@ -43,7 +43,7 @@ This is a part-time role that is not attending daily [standups](structures-and-r
 This is a part-time role that is not attending daily standups like the rest of the full-time members. This role is called out because there will be occasions when support from the finance and procurement team will be required, especially with respect enterprise agreements, cloud financial reporting, partner engagement etc.
 
 **Operational Administration Support:** 
-This is a part-time role that is not attending daily standups like the rest of the full-time members. This role is called out because there will be occasions when operational support is required, especially with respect first line support for queries, documentation, service level issues etc. 
+This is a part-time role that is not attending daily standups like the rest of the full-time members. This role is called out because there will be occasions when operational support is required, especially with respect first line support for queries, associated documentation, communication channels, tools and service level issues etc. 
 
 ## Team Organisation
 
