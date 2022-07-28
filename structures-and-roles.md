@@ -40,10 +40,10 @@ This isn't really a different role as such, more an indicator that organisations
 This is a part-time role that is not attending daily [standups](structures-and-roles.md) like the rest of the full-time members. This role is called out because there will be occasions when support from the legal team is required, relating to associated contracts, IP, terms and conditions etc. 
 
 **Finance and Procurement Support:** 
-This is a part-time role that is not attending daily standups.
+This is a part-time role that is not attending daily standups like the rest of the full-time members. This role is called out because there will be occasions when support from the finance and procurement team will be required, especially with respect enterprise agreements, cloud financial reporting, partner engagement etc.
 
 **Operational Administration Support:** 
-TBD
+This is a part-time role that is not attending daily standups like the rest of the full-time members. This role is called out because there will be occasions when operational support is required, especially with respect first line support for queries, documentation, service level issues etc. 
 
 ## Team Organisation
 
