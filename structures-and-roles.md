@@ -34,7 +34,7 @@ This role is responsible for core platform infrastructure design, development an
 This role is responsible for all security aspects of delivered workloads against the expected organisation security policies. This role will span the architecture, design of built in security at all levels of the IT stack, through network security, identity and access management, secure resource configuration patterns, application and code security. Additionally this role is responsible for associated security monitoring tools, alerting, dashboards and built in security to all CI/CD deployment pipelines. As for the other roles, security should also be managed through infrastructure as code using CI/CD pipelines. 
 
 **Microsoft and Partner Support:**
-TBD
+This isn't really a different role as such, more an indicator that organisations that are short on technical staff with the right expertise can seek to engage one of the many Azure cloud partners out there to augment their teams. These partners bring a lot of experience of cloud deployment and management and so can provide a fast start to getting going with a landing zone and operational best practices as well providing first hand education to existing team members. Engineers from partners can fill any of the identified roles. 
 
 **Legal Advisory Support:** 
 TBD
