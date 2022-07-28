@@ -53,7 +53,7 @@ As a result, in addition to IT workload and application specific DevOps teams, t
 
 ![Core DevOps Teams](./images/core-devops-teams.png)
 
-As each team will have a full stack of roles assigned to it this will appear as follows.
+Each team should have a full stack of roles assigned to it, resulting in the teams and roles being organised as follows. There will likely be dependencies between teams that vary in complexity depending upon the nature of the project. For example a straight forward stand-alone project with minimal interconnectivity requirements, existing resource patterns that require no major modification would have a minimal dependency, only requiring the provision of a suitable base subscription to which standard approved patterns can be deployed. For a more complex project with many hybrid connection requirements, new or heavily modified Azure service patterns not previously used, this would likely have a greater number of cross team dependencies. As agiity is the key, team deliverables and scope should be clearly understood so that cross team dependedncies are minimised and application teams maintian as much autonomy and agility as possible.
 
 ![DevOps Teams and Roles](./images/teams-and-roles.png)
 
