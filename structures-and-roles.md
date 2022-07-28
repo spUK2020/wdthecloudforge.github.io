@@ -57,6 +57,10 @@ As each team will have a full stack of roles assigned to it this will appear as 
 
 ![DevOps Teams and Roles](./images/teams-and-roles.png)
 
+> [!NOTE]
+> It may look as if the above is proposing 5 x 7 = 35 staff. However, this is not necessarily the case. These are 'roles' that need a name against them, not necessarily separate different individuals i.e. the same role could be covered by the same individual in different teams or a one individual could even cover multiple roles.
+>
+
 ## Get Started
 
 **Create a Backlog and Board**
