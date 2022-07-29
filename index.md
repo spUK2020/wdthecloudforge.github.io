@@ -36,6 +36,7 @@ To get started review each of the following:
 - [Azure FinOps configuration](./finops.html)
 - [Operational Transformation](./transformation.html)
 - [Examples from the field](./examples.html)
+- [FAQs](./faqs.html)
 
 ## Next steps
 
