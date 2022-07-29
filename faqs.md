@@ -12,8 +12,11 @@ ms.custom: internal, operating-model
 
 # Frequently Asked Questions
 
+### How will this scale in a large organisation?
+TBD
+
 ### Who will be responsible for Azure DevOps?
-This...
+TBD
 
 ## Get Started
 
