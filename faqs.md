@@ -18,7 +18,7 @@ TBD
 ### Who will be responsible for Azure DevOps?
 TBD
 
-### Should there be Scrum master?
+### Should there be a Scrum master?
 TBD
 
 ## Get Started
