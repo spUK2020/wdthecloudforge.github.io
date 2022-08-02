@@ -70,7 +70,7 @@ The focus for this team is shared foundational core services that revolve around
 The rationale for this team may be less clear and infact the functions of this team could be merged into the Core Platform Team. However, the reason for a separate team is to separate the activities associated with Azure resource design and configuration from core design tasks to allow for scaling. An example could be deployment of Azure Kubernetes Service (AKS) or Azure App Service where there is a significant design element and management overhead associated with the service. The role here is to create approved and re-usable patterns, delivered as code, for deploying Azure resources, configured to satisfy all security, availability and governance requirements. 
 
 ### Application Team
-TBD
+This team is responsible for the architecture, configuration and deployment of the end workloads themselves. This is where software applications and and associated data solutions are architected and deployed to the target Azure resources and core platform. This team will utilise CI/CD pipelines, repositiories and automation to manage, build, test and deploy applications and data to the target Azure reources. In addition to solution architecure design, this team will also define all the hybrid connectivity needs, data migration mechanisms and security and availability configuration compliance objectives.
 
 ## Get Started
 
