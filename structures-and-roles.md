@@ -53,13 +53,24 @@ As a result, in addition to IT workload and application specific DevOps teams, t
 
 ![Core DevOps Teams](./images/core-devops-teams.png)
 
-Each team should have a full stack of roles assigned to it, resulting in the teams and roles being organised as follows. There will likely be dependencies between teams that vary in complexity depending upon the nature of the project. For example a straight forward stand-alone project with minimal interconnectivity requirements, existing resource patterns that require no major modification would have a minimal dependency, only requiring the provision of a suitable base subscription to which standard approved patterns can be deployed. For a more complex project with many hybrid connection requirements, new or heavily modified Azure service patterns not previously used, this would likely have a greater number of cross team dependencies. As agiity is the key, team deliverables and scope should be clearly understood so that cross team dependedncies are minimised and application teams maintian as much autonomy and agility as possible.
+Each team should have a full stack of roles assigned to it, resulting in the teams and roles being organised as follows. There will likely be dependencies between teams that vary in complexity depending upon the nature of the project. For example a straight forward stand-alone project with minimal interconnectivity requirements, existing resource patterns that require no major modification would have a minimal dependency, only requiring the provision of a suitable base subscription to which standard approved patterns can be deployed. For a more complex project with many hybrid connection requirements, new or heavily modified Azure service patterns not previously used, this would likely have a greater number of cross team dependencies. As agility is the key, team deliverables and scope should be clearly understood so that cross team dependencies are minimised and application teams maintain as much autonomy and agility as possible.
 
 ![DevOps Teams and Roles](./images/teams-and-roles.png)
 
 > [!NOTE]
 > It may look as if the above is proposing 5 x 7 = 35 staff. However, this is not necessarily the case. These are 'roles' that need a name against them, not necessarily separate different individuals i.e. the same role could be covered by the same individual in different teams or a one individual could even cover multiple roles.
 >
+
+## Team Function
+
+### Core Platform Team
+The focus for this team is shared foundational core services that revolve around the provision of an Azure landing zone that caters for a solid cloud governance model. So this will include management and design of Azure tenants, subscriptions, Azure AD, hub and spoke networking, Express Route, VNets, peering, IP address allocation, shared firewalls and other required network appliances, security compliance and controls etc.
+
+### Azure Resource Team
+The rational for this team may be less clear and infact the functions of this team could be merged into the Core Platform Team. However, the reason for a separate team are to separate the activities associated with Azure resource design and configuration from core design tasks. An example could be deployment of Azure Kubernetes Service (AKS) or Azure App Service where there is a significant design element and management overhead associated with the service.  
+
+### Application Team
+TBD
 
 ## Get Started
 
