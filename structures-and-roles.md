@@ -67,7 +67,7 @@ Each team should have a full stack of roles assigned to it, resulting in the tea
 The focus for this team is shared foundational core services that revolve around the provision of an Azure landing zone that caters for a solid cloud governance model. So this will include management and design of Azure tenants, subscriptions, Azure AD, hub and spoke networking, Express Route, VNets, peering, IP address allocation, shared firewalls and other required network appliances, security compliance and controls etc.
 
 ### Azure Resource Team
-The rational for this team may be less clear and infact the functions of this team could be merged into the Core Platform Team. However, the reason for a separate team are to separate the activities associated with Azure resource design and configuration from core design tasks. An example could be deployment of Azure Kubernetes Service (AKS) or Azure App Service where there is a significant design element and management overhead associated with the service.  
+The rationale for this team may be less clear and infact the functions of this team could be merged into the Core Platform Team. However, the reason for a separate team are to separate the activities associated with Azure resource design and configuration from core design tasks. An example could be deployment of Azure Kubernetes Service (AKS) or Azure App Service where there is a significant design element and management overhead associated with the service.  
 
 ### Application Team
 TBD
