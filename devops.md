@@ -10,6 +10,12 @@ ms.subservice: general
 ms.custom: internal, operating-model
 ---
 
+#Notes
+
+- This is a good baseline document to use to build out the content below: https://docs.microsoft.com/en-gb/azure/devops/organizations/accounts/organization-management?view=azure-devops
+- I'm looking to be more perscriptive and creating a few visuals to bring it to life. 
+- Just brain dumping for now below, but using the above to structure and content details.
+
 # Azure DevOps Setup and Operating Model
 
 Azure DevOps has a number of different services that need to be considered when setting up the service and the operational model to support the use and adoption by teams. It's key to look at the structure of an orgnaisation to best align this model for supporting growth and usability movings forward. 
