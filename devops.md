@@ -16,6 +16,93 @@ ms.custom: internal, operating-model
 - I'm looking to be more perscriptive and creating a few visuals to bring it to life. 
 - Just brain dumping for now below, but using the above to structure and content details.
 
+- Organization Structure is already documentated: https://docs.microsoft.com/en-us/azure/devops/user-guide/plan-your-azure-devops-org-structure?view=azure-devops
+- https://docs.microsoft.com/en-us/azure/devops/user-guide
+- 
+
+
+Example
+
+As we already have documentation. I'm thinking of changing this to a checklist  /decision tree that links back to our documentation
+
+
+Checklist
+
+1. [Organization Management](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/organization-management?view=azure-devops)
+   1. [Plan your Organization Structure](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/organization-management?view=azure-devops)
+      - What's an Organization?
+      - How many organizations do I need?
+      - Map organizations and/or projects to business units
+      - What's a Team?
+      - What's a Project?
+      - How many Projects do I need?
+      - What's my repository strategy?
+      - One or Many Repos?
+      - Shared vs forked repos?
+   2. [Create an Organization](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=azure-devops)
+      - Remember an Owner for the organization is required.
+      - URL for logging into the new organization is https://dev.azure.com/{yourorganization}
+   3. [Setup Billing](https://docs.microsoft.com/en-us/azure/devops/user-guide/manage-organization-collection?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops#set-up-billing)
+   3. [Manage Access to your Organization](https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-permissions?view=azure-devops)
+      - Access
+      - Access Levels
+      - [Permissions](https://docs.microsoft.com/en-us/azure/devops/user-guide/manage-organization-collection?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops#manage-security-and-permissions)
+      - Add users at different levels
+        - [Add users to your organization](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/add-organization-users?view=azure-devops)
+        - [Add users to a Team](https://docs.microsoft.com/en-us/azure/devops/organizations/security/add-users-team-project?view=azure-devops#add-users-to-a-team)
+        - [Add users to a project](https://docs.microsoft.com/en-us/azure/devops/organizations/security/add-users-team-project?view=azure-devops#add-users-to-a-project)
+      - Manage users with AAD
+        - Connect you organization to AAD
+        - Add users to AAD
+        - Add AAD groups to ADO groups
+        - Best practice
+          -  Manage users via security groups
+       -  [Restrict organization creation with tenant policy](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/azure-ad-tenant-policy-restrict-org-creation?view=azure-devops)
+        - 
+
+
+2. [Projects](https://docs.microsoft.com/en-us/azure/devops/user-guide/project-admin-tutorial?view=azure-devops)
+   - [Create a Project](https://docs.microsoft.com/en-us/azure/devops/organizations/projects/create-project?view=azure-devops&tabs=browser)
+   - [Structure your project](https://docs.microsoft.com/en-us/azure/devops/organizations/projects/about-projects?view=azure-devops#project-structure)
+   - [Add team to project](https://docs.microsoft.com/en-us/azure/devops/organizations/projects/about-projects?view=azure-devops#when-to-add-a-team-scaling-agile-tools-across-the-enterprise)
+
+3. [Repos](https://docs.microsoft.com/en-us/azure/devops/repos/get-started/sign-up-invite-teammates?view=azure-devops)
+   - [Create Repo](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-new-repo?view=azure-devops)
+4. [Teams](https://docs.microsoft.com/en-us/azure/devops/organizations/settings/manage-teams?toc=%2Fazure%2Fdevops%2Fget-started%2Ftoc.json&bc=%2Fazure%2Fdevops%2Fget-started%2Fbreadcrumb%2Ftoc.json&view=azure-devops)
+5. [Boards](https://docs.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops)
+   - [Area Paths](https://docs.microsoft.com/en-us/azure/devops/organizations/settings/about-areas-iterations?toc=%2Fazure%2Fdevops%2Freference%2Ftoc.json&bc=%2Fazure%2Fdevops%2Freference%2Fbreadcrumb%2Ftoc.json&view=azure-devops)
+   - 
+6. Tags
+7. [Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops)
+   - [Create first pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/pipelines-get-started?view=azure-devops)
+8.  
+
+
+9.  Security
+    - 
+
+
+
+
+
+
+10. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Azure DevOps Setup and Operating Model
 
 Azure DevOps has a number of different services that need to be considered when setting up the service and the operational model to support the use and adoption by teams. It's key to look at the structure of an orgnaisation to best align this model for supporting growth and usability movings forward. 
@@ -24,23 +111,35 @@ This guide is perscriptive in providing a way to get started with a view to scal
 
 ## Get Started
 
-Azure DevOps consists of a number of diffferent structures and products that need to be considered where setting up the service. This will be covered in the sections below.
+Azure DevOps consists of a number of different structures and products that need to be considered where setting up the service. 
 
-tbc show diagram with products
+I few key products are:
 
-## Organisation
+[Azure DevOps](https://docs.microsoft.com/en-us/azure/devops)  
+![Azure DevOps](images/services-hubs-vert.png) 
+ 
+This main sections that will be looked at below are: 
 
-### What is an organisation?
+-   Organization
+-   Project
+-   Repos
+-   Pipelines
+-  
 
-It's the primary entity point into Azire DevOps where projects and supporting products are hosted. 
+## Organization
 
-One Organisation -> Multiple Projects -> multiple repos (tbc  create diagram)
+### What is an Organization?
 
-### One or Multiple Organisations
+It's the primary entity point (e.g. https://dev.azure.com/{yourorganization}) into Azure DevOps where projects and supporting products are hosted.
 
-One organisation works for most scenarios and is a good starting point where multiple projects and teams can be added to an orgnaisation, which can drive productivity and adoption initially.  
 
-Going with a multiple organisations model is generally driven by the need for teams and projects to work in isolation and/or require a different security model across different of a company.
+
+
+### One or Multiple Organizations
+
+One organization works for most scenarios and is a good starting point where multiple projects and teams can be added to an organization, which can drive productivity and adoption initially.  
+
+Going with a multiple organizations model is generally driven by the need for teams and projects to work in isolation and/or require a different security model across different of a company.
 
 ## Teams
 
