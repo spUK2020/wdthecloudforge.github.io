@@ -30,7 +30,7 @@ Checklist
 1. [Organization Management](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/organization-management?view=azure-devops)
    1. [Plan your Organization Structure](https://docs.microsoft.com/en-us/azure/devops/user-guide/plan-your-azure-devops-org-structure?view=azure-devops)
       - What's an Organization?
-      - [How many organizations do I need?](###one-or-multiple-organizations)
+      - [How many organizations do I need?](#one-or-multiple-organizations)
       - Map organizations and/or projects to business units
       - What's a Team?
       - What's a Project?
