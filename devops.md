@@ -87,7 +87,7 @@ Checklist
 
 Azure DevOps has a number of different services that need to be considered when setting up the service and the operational model to support the use and adoption by teams. It's key to look at the structure of an orgnaisation to best align this model for supporting growth and usability movings forward.
 
-This guide is perscriptive in providing a way to get started with a view to scale moving forward.
+This guide is prescriptive in providing a way to get started with a view to scale moving forward.
 
 ## Get Started
 
@@ -157,3 +157,44 @@ Some examples:
 ## Next steps
 
 TBD
+
+Example 1 - Have Azure AAD tenant already
+
+1. Plan Azure DevOps Organizational Structure
+2. Organizational
+   1. Create Azure DevOps Organization
+   2. Restrict organization creation with tenant policy in Azure
+   3. Setup AAD Integration
+   4. Manage Users access via Security Groups. (Best Practice)
+   5. Define process for Access, Roles and Permissions at Organizational level (tbc - build out more info)
+      1. Roles and Responsibilities (tbc)
+   6. Setup Billing for Organization
+   7. Review Policies
+   8. Review and update Boards processes
+3. Project
+    1. Define process for Access, Roles and Permissions at Project and Team level prior to creation of first project. (tbc - build out more info)
+        1. Roles and Responsibilities (tbc)
+    2. Define process for Service Connections and Agent Pools
+    3. Create Project
+    4. Apply process from 1 and 2 above.
+4. Boards
+    1. Review process's setup in the Organization.
+    2. Configure the Team configuration for Backlogs, working days, bugs, iterations, areas and templates.
+    3. Optional, setup GitHub connection for linking Boards to a GitHun repo.
+    4. Config the Teams Board for their ways of working (e.g. workflow, swimlanes, styles and fields)
+5. Repositories
+    1. Define and branching strategy for the Team when working with a repo.
+    2. Set default branch name (e.g. main)
+    3. Apply policies to the repo.
+    4. Review and apply security groups and roles to repo.
+    5. Dev team to agree approach to repo's for their applications:
+        1. One vs. many
+        2. Shared vs. Forked
+    6. Define process for Access, Roles and Permissions at repo level based on above requirements.
+6. Pipelines
+    1. Best practice is to move to YAML pipelines for both build and release pipelines.
+    2. This allows for managing the pipelines as code and storing them in repos to drive consistency and audibility linked to builds and releases.
+    3. Agent Pools
+         1. For security and scalability its recommended  to use safe-hosted agents for pipelines.
+
+    4.
