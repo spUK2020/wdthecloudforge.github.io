@@ -12,7 +12,7 @@ ms.custom: internal, operating-model
 
 # Organisation Team Structures and Roles
 
-It is important to identify all of the roles required for operating a cloud environment and to insure that named member(s) of the team is(are) assigned to those roles. The image below provides an example of a suitable set of team roles.
+It is important to identify all of the roles required for operating a cloud environment and to insure that named member(s) of the team is(are) assigned to those roles. Every workload moving to the cloud will need coverage from all of these roles. The image below provides an example of a suitable set of team roles.
 
 ## Team Roles
 
