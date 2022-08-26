@@ -25,6 +25,34 @@ https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/monitor
 
 https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor/
 
+## Cloud Operations
+
+Cloud operations: A function within the centralized technology organization, this operations function manages the health and operations of the technology portfolio. It's their responsibility to ensure the process runs smoothly, that each adjacent role in the process has the necessary tools, and that each of the subsequent roles is held accountable for expectations of this process.
+
+
+
+
+We're trying to answer 2 questions here:
+1. Who are the people involved? (the actors)
+2. What do they need?
+
+
+The Actors
+This doc : https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/organize/cloud-operations 
+states that cloud ops function can be provided by many folks.
+
+This may be different depending on the operating model type as defined here : <operating model link from CAF READY>
+as it may be a DevOps team rather than an MSP that provides operations.
+  
+  
+What do they need?  
+Additionally, if we overlay the Monitoring stack (Azure Monitor Overview doclink) we start to get a feel for the 
+  types of information that is required by an operations function.
+
+
+
+
+
 
 ## Next steps
 
