@@ -58,7 +58,7 @@ Additionally, if we overlay the Monitoring stack (Azure Monitor Overview doclink
 
 TBD
   
-Who - cares/responds to alerts
-What - which alerts
-How - which tools
-Optimisation - review & improve
+1. Who - cares/responds to alerts
+2. What - which alerts
+3. How - which tools
+4. Optimisation - review & improve
