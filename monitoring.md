@@ -57,3 +57,8 @@ Additionally, if we overlay the Monitoring stack (Azure Monitor Overview doclink
 ## Next steps
 
 TBD
+  
+Who - cares/responds to alerts
+What - which alerts
+How - which tools
+Optimisation - review & improve
