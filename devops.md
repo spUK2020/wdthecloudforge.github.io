@@ -231,10 +231,12 @@ Example 1 - Have Azure AAD tenant already
             Organization Owner | Has permissions to add users, change the access level for a user or group, manage permissions at all levels, and configure and customize all projects defined for the organization. | - All
             Project Collection Administrator | Main administrator defined for an organization or project collection. | - Add users to a collection<br/>- Create and manage all projects in the organization or collection<br/>- Create and manage all Inherited processes defined for a collection<br/>- Install and uninstall extensions<br/>- Add members and groups to the Project Collection Administrators group or any other project-level group<br/>- Manage permissions at all levels.
       2. Project ([more info](https://docs.microsoft.com/en-us/azure/devops/organizations/security/change-project-level-permissions?view=azure-devops&tabs=preview-page))
+
             Role | Description | Permissions
             ---- | ----------- | -----------
             Project Administrator | Main administrator/s for a project|  - Delete and rename the project<br/>- Add users and teams to the project<br/>- Add and manage Area Paths and Iteration Paths<br/>- Add and manage shared query folders<br/>- Add members and groups to the Project Administrators group or any other project-level group<br/>- Manage permissions at the project-level or for any object defined for the project. (Boards, Repos, Test Plans, Artifacts)
       3.  Boards / Teams ([more info](https://docs.microsoft.com/en-us/azure/devops/organizations/security/permissions-access-work-tracking?view=azure-devops))
+
             Role | Description | Permissions
             ---- | ----------- | -----------
             Project Administrators | Main administrator/s for a project | - All
@@ -242,6 +244,7 @@ Example 1 - Have Azure AAD tenant already
             Contributors | Contributor to tool's they have permission too. Not manage user permissions | - Permissions to work with (Work Items,Boards, Backlogs, Sprints, Queries / Search, Delivery Plans, Test Plans and Project-Level Resources)
             Readers | Reading to tool's they have permission too. | - Permissions to view (Work Items,Boards, Backlogs, Sprints, Queries / Search, Delivery Plans, Test Plans and Project-Level Resources)
       4. Repositories [Repos] ([more info](https://docs.microsoft.com/en-us/azure/devops/organizations/security/default-git-permissions?view=azure-devops))
+
             Role | Description | Permissions
             ---- | ----------- | -----------
             Project Administrators | Main administrator/s for a project | - All
@@ -249,6 +252,7 @@ Example 1 - Have Azure AAD tenant already
             Contributors | Contributor to tool's they have permission too. Not manage user permissions | - Read (clone, fetch, and explore the contents of a repository); also, can create, comment on, vote, and Contribute to pull requests<br/> - Contribute, Create branches, Create tags, and Manage notes 
             Readers | Reading to tool's they have permission too. | - Read (clone, fetch, and explore the contents of a repository); also, can create, comment on, vote, and Contribute to pull requests
       5. Pipelines ([more info](https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-security-roles?view=azure-devops))
+
             Role | Description | Permissions
             ---- | ----------- | -----------
             
