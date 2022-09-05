@@ -225,6 +225,7 @@ Example 1 - Have Azure AAD tenant already
 8. [Security](https://docs.microsoft.com/en-us/azure/devops/organizations/security/?view=azure-devops)
    1. Roles and Permissions
       1. Organization ([more info](https://docs.microsoft.com/en-us/azure/devops/organizations/security/change-organization-collection-level-permissions?view=azure-devops&tabs=preview-page))
+ 
             Role | Description | Permissions
             ---- | ----------- | -----------
             Organization Owner | Has permissions to add users, change the access level for a user or group, manage permissions at all levels, and configure and customize all projects defined for the organization. | - All
