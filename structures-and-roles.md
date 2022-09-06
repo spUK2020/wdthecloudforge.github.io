@@ -14,7 +14,7 @@ ms.custom: internal, operating-model
 
 It is important to identify all of the roles required for operating a cloud environment and to insure that named member(s) of the team is(are) assigned to those roles. Every workload moving to the cloud will need coverage from all of these roles. The image below provides an example of a suitable set of team roles.
 
-## Team Roles
+## Select Team Roles
 
 ![Team Structure and Roles](./images/team-structure.png)
 
@@ -45,7 +45,7 @@ This is a part-time role that is not attending daily standups like the rest of t
 **Operational Administration Support:** 
 This is a part-time role that is not attending daily standups like the rest of the full-time members. This role is called out because there will be occasions when operational support is required, especially with respect first line support for queries, associated documentation, communication channels, tools and service level issues etc. 
 
-## Team Organisation
+## Select Team Organisation
 
 Having identified the key roles, to scale a modern cloud operating model across a large organisation, it is important setup your DevOps teams to maximise the benefits of collaboration and agility. A key principle here is to strike the right balance between central process and governance whilst still permitting autonomy within DevOps teams across the organisation. While it may seem obvious to talk about a DevOps team per IT workload and application it is often not quite as simple as that, as there are typically a number of core or shared elements that need to be in place for these projects to progress. For example, commercial licensing and enterprise agreements, issuing Azure subscriptions, shared network services and IP address allocation, shared security and monitoring solutions, common development tooling, reusable organisational compliant resource configuration patterns etc.
 
@@ -61,7 +61,7 @@ Each team should have a full stack of roles assigned to it, resulting in the tea
 > It may look as if the above is proposing 5 x 7 = 35 staff. However, this is not necessarily the case. These are 'roles' that need a name against them, not necessarily separate different individuals i.e. the same role could be covered by the same individual in different teams or a one individual could even cover multiple roles.
 >
 
-## Team Function
+## Define Team Functions
 
 ### Core Platform Team
 The focus for this team is shared foundational core services that revolve around the provision of an Azure landing zone that caters for a solid cloud governance model. So this will include management and design of Azure tenants, subscriptions, Azure AD, hub and spoke networking, Express Route, VNets, peering, IP address allocation, shared firewalls and other required network appliances, security compliance and controls etc.
@@ -72,7 +72,7 @@ The focus for this team is shared foundational core services that revolve around
 | **Application** | TBD Line 1<br/><br/>Also supports [Test Link 1](structure-and-roles.md) | TBD Line 2<br/><br/>TBD Line 3<br/><br/>TBD Line 4 |
 | **QA** | TBD Line 1<br><br>TBD Line 2 | TBD Line 1<br/><br/>TBD Line 2<br><br> TBD Line 3 |
 | **Security** | TBD Line 1<br><br>TBD Line 2 | TBD Line 1<br/><br/>TBD Line 2<br><br> TBD Line 3 |
-| **Network** | TBD Line 1<br><br>TBD Line 2 | TBD Line 1<br/><br/>TBD Line 2<br><br> TBD Line 3 |
+| **Network** | TBD Line 1<br><br>TBD Line 2 | VNets, Subnets, Route Tables, NSGs, Private Zones, Private Endpoints,<br/>VNet Peering, ExpressRoute, Firewall, Network Monitoring, PaaS VNet integration, <br/>Public IPs, NVAs, DNS, VWAN, VPN Gateway<br/> |
 
 ### Azure Resource Team
 The rationale for this team may be less clear and infact the functions of this team could be merged into the Core Platform Team. However, the reason for a separate team is to separate the activities associated with Azure resource design and configuration from core design tasks to allow for scaling. An example could be deployment of Azure Kubernetes Service (AKS) or Azure App Service where there is a significant design element and management overhead associated with the service. The role here is to create approved and re-usable patterns, delivered as code, for deploying Azure resources, configured to satisfy all security, availability and governance requirements. 
