@@ -50,6 +50,13 @@ Additionally, if we overlay the Monitoring stack (Azure Monitor Overview doclink
   types of information that is required by an operations function.
 
 
+  ## Discussion Points
+  Logging and monitoring framework
+
+Roles and responsibilities of teams across the shared responsibility model
+
+Incident management process
+
 
 
 
