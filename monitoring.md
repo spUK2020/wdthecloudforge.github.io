@@ -37,11 +37,12 @@ https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/organize/raci-al
 If you are new to the cloud you want to get to a position where you at least implement an organisational MVP. This is where you have one or more Cloud Adoption teams that are deploying resources held to account by a Cloud Governance team. 
 As you'll see from the links above, the responsibility for monitoring is split between both teams: platform operations are handled by the Governance team and solution operations are handled by the Cloud Adoption teams.
 
-ADD DIFFERENCE BETWEEN SOLUTION OPERATIONS AND PLATFORM OPERATIONS 
+talk about how, with the MVP, only 2 teams so have to wear multiple hats.
+According to RACI doc (give link), we are looking at Governance team assuming the Cloud Platform function and CLoud Adoption teams becoming accountable for cloud operations.
 
-As you grow in maturity you may wish to move towards a more mature enterprise scale organisational model and hence we would see the introduction of Cloud Operations.
+quote the deliverables of each team :... 
 
-Cloud operations: A function within the centralized technology organization, this operations function manages the health and operations of the technology portfolio. It's their responsibility to ensure the process runs smoothly, that each adjacent role in the process has the necessary tools, and that each of the subsequent roles is held accountable for expectations of this process.
+As you grow in maturity you may wish to move towards a more mature enterprise scale organisational model and hence we would see the introduction of Cloud Operations and Cloud Platform teams.
 
 ## Defining your monitoring(?)
 
@@ -57,7 +58,7 @@ The recommended end-to-end monitoring approach for both infrastructure and appli
 
 There are also clear recommendations in the Azure Landing Zone documentation that cover best practices for platform implementation. Therefore, we should also take the into consideration as we build out some key recommendations.
 
-need to add ! ESLZ link to design areas
+need to add ! ESLZ link to design areas??
   
 ## Consider the tools to build your monitoring solution
 
@@ -83,8 +84,19 @@ Sentinel
 ## Our Recommendations to start
 
 You should understand that your monitoring strategy will evolve over time and be careful not to delay by ensuring you have every base covered.
-Your first objective is to ensure "Observability." You need to capture some key information about your resources which will allow you to both
-monitor your environment but also learn for future evolution.
+Your first objective is to ensure "Observability." You need to capture some key information about your resources which will allow you to both monitor your environment but also learn for future evolution.
+
+This is based on the MVP of 2 teams: adoption and governance where these teams are assigned th functions of cloud operations and cloud plaftorm.
+
+Do we split into: 
+cloud operations - Monitor performance of workloads
+Cloud platform - Operate and manage the cloud platform
+
+## Cloud Platform Monitoring
+1. Who - cares/responds to alerts?
+2. What - which alerts
+3. How - which tools
+4. Optimisation - review & improve
 
 Create one or more Log Analytics workspaces.
 1 per region as per guidelines - these will capture platform logs. For non-paas (solutions platforms??) create additional?
@@ -98,11 +110,19 @@ Enable initial alert rules.
 
 
 
-## Next steps
-
-TBD
-  
-1. Who - cares/responds to alerts
+## Cloud Operations Monitoring
+1. Who - cares/responds to alerts?
 2. What - which alerts
 3. How - which tools
 4. Optimisation - review & improve
+
+
+
+
+
+
+Azure Monitor workbooks on github - https://github.com/microsoft/AzureMonitorCommunity/tree/master/Scenarios
+
+## Next Steps
+
+TBD 
