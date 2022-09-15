@@ -98,6 +98,9 @@ Cloud platform - Operate and manage the cloud platform
 3. How - which tools
 4. Optimisation - review & improve
 
+Considerations/Recommendations?
+
+
 Create one or more Log Analytics workspaces.
 1 per region as per guidelines - these will capture platform logs. For non-paas (solutions platforms??) create additional?
 START HERE
@@ -116,6 +119,8 @@ Enable initial alert rules.
 3. How - which tools
 4. Optimisation - review & improve
 
+
+Considerations/Recommendations?
 
 
 
