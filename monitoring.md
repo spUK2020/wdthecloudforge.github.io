@@ -98,7 +98,19 @@ Cloud platform - Operate and manage the cloud platform
 3. How - which tools
 4. Optimisation - review & improve
 
-Considerations/Recommendations?
+### Who ###
+
+TBC
+
+### What ###
+
+TBC
+
+### How ###
+
+TBC
+
+### Optimise ###
 
 
 Create one or more Log Analytics workspaces.
@@ -110,21 +122,6 @@ Enable agents.
 Enable resource diagnostic settings.
 
 Enable initial alert rules.
-
-
-
-## Cloud Operations Monitoring
-1. Who - cares/responds to alerts?
-2. What - which alerts
-3. How - which tools
-4. Optimisation - review & improve
-
-
-Considerations/Recommendations?
-
-
-
-
 
 Azure Monitor workbooks on github - https://github.com/microsoft/AzureMonitorCommunity/tree/master/Scenarios
 
