@@ -93,10 +93,10 @@ cloud operations - Monitor performance of workloads
 Cloud platform - Operate and manage the cloud platform
 
 ## Cloud Platform Monitoring
-1. [Who](monitoring.md#who)- cares/responds to alerts?
-2. What - which alerts
-3. How - which tools
-4. Optimisation - review & improve
+1. [Who](monitoring.md#who) - cares/responds to alerts?
+2. [What](monitoring.md#what) - which alerts
+3. [How](monitoring.md#how) - which tools
+4. [Optimisation](monitoring.md#optimise) - review & improve
 
 ### Who ###
 
@@ -104,7 +104,10 @@ TBC
 
 ### What ###
 
-TBC
+- Analyse the solution architecture and identify each of the Azure components included and list them.
+- For each Azure service export all of the Azure metrics available for that service and list them.
+- Mark the metrics you wish to monitor.
+- For each selected metric identify which you require alerts for and to what threshold.
 
 ### How ###
 
