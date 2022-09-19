@@ -93,7 +93,7 @@ cloud operations - Monitor performance of workloads
 Cloud platform - Operate and manage the cloud platform
 
 ## Cloud Platform Monitoring
-1. Who - cares/responds to alerts?
+1. [Who](monitoring.md#who)- cares/responds to alerts?
 2. What - which alerts
 3. How - which tools
 4. Optimisation - review & improve
@@ -112,6 +112,7 @@ TBC
 
 ### Optimise ###
 
+TBD
 
 Create one or more Log Analytics workspaces.
 1 per region as per guidelines - these will capture platform logs. For non-paas (solutions platforms??) create additional?
