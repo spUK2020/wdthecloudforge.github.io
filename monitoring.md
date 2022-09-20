@@ -88,9 +88,9 @@ Your first objective is to ensure "Observability." You need to capture some key 
 
 This is based on the MVP of 2 teams: adoption and governance where these teams are assigned th functions of cloud operations and cloud plaftorm.
 
-Do we split into: 
-cloud operations - Monitor performance of workloads
-Cloud platform - Operate and manage the cloud platform
+Consider this sample architecture:
+
+![Example Architecture](images/samplearch.png)
 
 ## Cloud Platform Monitoring
 1. [Who](monitoring.md#who) - cares/responds to alerts?
