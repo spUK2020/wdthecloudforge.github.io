@@ -70,16 +70,16 @@ GitHub to establish a source control for the scripts, code, and documentation.
 
 In addition, there are some key components that will figure in your monitoring suite:
 
-Azure Monitor including Log Analytics workspace and playbooks
-Microsoft Defender For Cloud
-Azure Service Health
-Azure Resource Health
-Azure Policy and Blueprints
-Azure ARC
-Azure Automation
-Logic Apps
-Event Hubs
-Sentinel
+- Azure Monitor including Log Analytics workspace and playbooks
+- Microsoft Defender For Cloud
+- Azure Service Health
+- Azure Resource Health
+- Azure Policy and Blueprints
+- Azure ARC
+- Azure Automation
+- Logic Apps
+- Event Hubs
+- Sentinel
 
 ## Our Recommendations to start
 
