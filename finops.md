@@ -18,6 +18,10 @@ There is a lot of documentation already about how to organize and cost manage sp
 
 Another challenge customers have is around optimization, and control of resources been used or not used.  Is easy to forget to delete resources we don't need to use anymore or to choose the biggest VMs or tiers because the team doesn't know how the applications will behave.  This is why monitoring and perfomance reports are needed to complete the Finops Operations.
 
+#Title
+
+##Title2
+
 
 ## Get Started
 
