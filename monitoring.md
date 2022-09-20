@@ -93,41 +93,84 @@ Consider this sample architecture:
 ![Example Architecture](images/SampleArch.png)
 
 ## Cloud Platform Monitoring
-1. [Who](monitoring.md#who) - cares/responds to alerts?
-2. [What](monitoring.md#what) - which alerts
-3. [How](monitoring.md#how) - which tools
-4. [Optimisation](monitoring.md#optimise) - review & improve
+1. [Who](monitoring.md#who) - Who cares and responds to alerts?
+2. [What](monitoring.md#what) - What are we going to monitor and alert on?
+3. [How](monitoring.md#how) - Which tools are we going to use?
+4. [Optimisation](monitoring.md#optimise) - How can we review & improve our monitoring posture?
 
 ### Who ###
 
-TBC
+Remember that, in this example, we are considering the two-team MVP organisational model: Adoption and Governance.
+The logs and metrics we are capturing will fit into one of two groups:
+
+- Cloud Platform: Platform logs and metrics provide detailed diagnostic and auditing information for Azure resources and the Azure platform they depend on.
+- Application/Solution: Logs and metrics associated with the application code
+
+Referencing the roles here (insert link to Will's doc), the following roles map to the two teams:
+(insert roles and assign to one of the two teams)
 
 ### What ###
 
+Before you do anything, the first step is to understand exactly what is available to you in terms of logs and metrics.
+Logs and metrics will almost certainly vary between Azure services, but there will be some commonality. Regardless of this, you will need as comprehensive a list as possible so that you can determine which logs and metrics to monitor. 
+
+These are the steps we recommend you take:
+
 - Analyse the solution architecture and identify each of the Azure components included and list them.
-- For each Azure service export all of the Azure metrics available for that service and list them.
-- Mark the metrics you wish to monitor.
-- For each selected metric identify which you require alerts for and to what threshold.
+- For each Azure service export all of the Azure logs and metrics available for that service and list them.
+- Mark the logs and metrics you wish to monitor.
+- For each selected log and metric identify which you require alerts for and to what threshold.
+
+Considering the sample architecture, we have the following components to consider:
+
+- Azure Firewall https://learn.microsoft.com/en-us/azure/firewall/logs-and-metrics
+- Internal Load Balancer https://learn.microsoft.com/en-us/azure/load-balancer/monitor-load-balancer
+- Virtual Machines https://learn.microsoft.com/en-us/azure/virtual-machines/monitor-vm
+- Virtual Network https://learn.microsoft.com/en-us/azure/virtual-network/monitor-virtual-network
+- SQL PaaS Database https://learn.microsoft.com/en-us/azure/azure-sql/database/monitoring-sql-database-azure-monitor?view=azuresql
+- Azure Active Directory https://learn.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor
+
+Listing all of the logs and metrics involved reviewing the Azure documentation and the correcponding links have been included above for your convenience.
+
+In this example, we would advocate the following logs and metrics:
+
+### Azure Firewall
+TBD
+
+### Internal Load Balancer
+TBD
+
+### Virtual Machines
+TBD
+
+### Virtual Network
+TBD
+
+### SQL PaaS Database
+TBD
+
+### Azure Active Directory
+TBD
+
 
 ### How ###
 
+Cloud Platform Logs and metrics:
+Create one or more Log Analytics workspaces.
+1 per region as per guidelines - these will capture platform logs. 
+
+Application Logs and metrics:
+Create separate LAW in spoke subscriotion?? Need to check ALZ guidance
+
+Azure Monitor workbooks on github - https://github.com/microsoft/AzureMonitorCommunity/tree/master/Scenarios
 TBC
 
 ### Optimise ###
 
 TBD
 
-Create one or more Log Analytics workspaces.
-1 per region as per guidelines - these will capture platform logs. For non-paas (solutions platforms??) create additional?
-START HERE
 
-Enable agents.
 
-Enable resource diagnostic settings.
-
-Enable initial alert rules.
-
-Azure Monitor workbooks on github - https://github.com/microsoft/AzureMonitorCommunity/tree/master/Scenarios
 
 ## Next Steps
 
