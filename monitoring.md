@@ -90,7 +90,7 @@ This is based on the MVP of 2 teams: adoption and governance where these teams a
 
 Consider this sample architecture:
 
-![Example Architecture](images/samplearch.png)
+![Example Architecture](images/SampleArch.png)
 
 ## Cloud Platform Monitoring
 1. [Who](monitoring.md#who) - cares/responds to alerts?
