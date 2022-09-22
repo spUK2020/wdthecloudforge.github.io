@@ -44,7 +44,7 @@ quote the deliverables of each team :...
 
 As you grow in maturity you may wish to move towards a more mature enterprise scale organisational model and hence we would see the introduction of Cloud Operations and Cloud Platform teams.
 
-## Defining your monitoring(?)
+## Defining your monitoring
 
 https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor/
 
