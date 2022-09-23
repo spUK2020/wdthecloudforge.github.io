@@ -132,7 +132,17 @@ Considering the sample architecture, we have the following components to conside
 
 Listing all of the logs and metrics involved reviewing the Azure documentation and the correcponding links have been included above for your convenience.
 
-In this example, we would advocate the following logs and metrics:
+In this example, we would advocate the following logs and metrics based on both the [Cloud Adoption Framework Landing Zone design](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) and [Well-Architected Framework](https://learn.microsoft.com/en-us/azure/architecture/framework/) documentation:
+
+### The First Steps
+
+Considerations:
+- Establish a basline of services
+- Consider using tools such as an Azure Monitor Log Analytics workspace as administrative boundaries
+
+Recommendations:
+- Deploy a central Log Analytics workspace for platform operations. This will be in your Management subscription as part of the platform.
+- Deploy a workload-specific Log Analytics workspace for application logging. This will be in your workload subscription.
 
 ### Azure Firewall
 TBD
@@ -150,7 +160,10 @@ TBD
 TBD
 
 ### Azure Active Directory
-TBD
+
+Send all Azure AD diagnostic logs to a central Azure Monitor Log Analytics workspacefollowing the
+guidance here: Integrate Azure AD logs with Azure Monitor Logs
+
 
 
 ### How ###
