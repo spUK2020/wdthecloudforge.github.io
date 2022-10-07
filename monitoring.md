@@ -102,10 +102,11 @@ We should ask ourselves these core questions:
 ### Who ###
 
 Remember that, in this example, we are considering the two-team MVP organisational model: Adoption and Governance.
-The logs and metrics we are capturing will fit into one of two groups:
+The logs and metrics we are capturing will fit into one of three groups:
 
 - Cloud Platform: Platform logs and metrics provide detailed diagnostic and auditing information for Azure resources and the Azure platform they depend on.
 - Application/Solution: Logs and metrics associated with the application code
+- Security: Logs and metrics associated with identity and access control, change audit, vulnerability detection and DDoS events 
 
 Referencing the roles here (insert link to Will's doc), the following roles map to the two teams:
 (insert roles and assign to one of the two teams)
