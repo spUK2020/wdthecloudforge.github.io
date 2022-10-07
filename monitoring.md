@@ -86,18 +86,19 @@ In addition, there are some key components that will figure in your monitoring s
 You should understand that your monitoring strategy will evolve over time and be careful not to delay by ensuring you have every base covered.
 Your first objective is to ensure "Observability." You need to capture some key information about your resources which will allow you to both monitor your environment but also learn for future evolution.
 
-This is based on the MVP of 2 teams: adoption and governance where these teams are assigned th functions of cloud operations and cloud plaftorm.
+This is based on the MVP of 2 teams: adoption and governance where these teams are assigned the functions of cloud operations and cloud plaftorm.
 
-Consider this sample architecture:
+Consider this sample architecture which is hosted in a single region:
 
 ![Example Architecture](images/SampleArch.png)
 
-## Cloud Platform Monitoring
+We should ask ourselves these core questions:
 1. [Who](monitoring.md#who) - Who cares and responds to alerts?
 2. [What](monitoring.md#what) - What are we going to monitor and alert on?
 3. [How](monitoring.md#how) - Which tools are we going to use?
 4. [Optimisation](monitoring.md#optimise) - How can we review & improve our monitoring posture?
 
+## Cloud Platform Monitoring
 ### Who ###
 
 Remember that, in this example, we are considering the two-team MVP organisational model: Adoption and Governance.
@@ -129,8 +130,9 @@ Considering the sample architecture, we have the following components to conside
 - Virtual Network https://learn.microsoft.com/en-us/azure/virtual-network/monitor-virtual-network
 - SQL PaaS Database https://learn.microsoft.com/en-us/azure/azure-sql/database/monitoring-sql-database-azure-monitor?view=azuresql
 - Azure Active Directory https://learn.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor
+- Security Microsoft Defender for Cloud (need URL)
 
-Listing all of the logs and metrics involved reviewing the Azure documentation and the correcponding links have been included above for your convenience.
+Listing all of the logs and metrics involved reviewing the Azure documentation and the corresponding links have been included above for your convenience.
 
 In this example, we would advocate the following logs and metrics based on both the [Cloud Adoption Framework Landing Zone design](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) and [Well-Architected Framework](https://learn.microsoft.com/en-us/azure/architecture/framework/) documentation:
 
@@ -142,7 +144,6 @@ Considerations:
 
 Recommendations:
 - Deploy a central Log Analytics workspace for platform operations. This will be in your Management subscription as part of the platform.
-- Deploy a workload-specific Log Analytics workspace for application logging. This will be in your workload subscription.
 
 ### Azure Firewall
 TBD
@@ -164,6 +165,10 @@ TBD
 Send all Azure AD diagnostic logs to a central Azure Monitor Log Analytics workspacefollowing the
 guidance here: Integrate Azure AD logs with Azure Monitor Logs
 
+## Security
+
+TBD 
+Enable MS Defender for Cloud
 
 
 ### How ###
@@ -173,7 +178,7 @@ Create one or more Log Analytics workspaces.
 1 per region as per guidelines - these will capture platform logs. 
 
 Application Logs and metrics:
-Create separate LAW in spoke subscriotion?? Need to check ALZ guidance
+Create separate LAW in spoke subscription?? Need to check ALZ guidance
 
 Azure Monitor workbooks on github - https://github.com/microsoft/AzureMonitorCommunity/tree/master/Scenarios
 TBC
@@ -181,6 +186,23 @@ TBC
 ### Optimise ###
 
 TBD
+
+## Application Monitoring
+
+###The First Steps
+
+Considerations:
+
+Recommendations:
+- Deploy a workload-specific Log Analytics workspace for application logging. This will be in your workload subscription.
+
+### Application Logging
+
+App Insights
+
+
+
+
 
 
 
