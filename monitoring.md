@@ -86,7 +86,12 @@ In addition, there are some key components that will figure in your monitoring s
 You should understand that your monitoring strategy will evolve over time and be careful not to delay by ensuring you have every base covered.
 Your first objective is to ensure "Observability." You need to capture some key information about your resources which will allow you to both monitor your environment but also learn for future evolution.
 
-This is based on the MVP of 2 teams: adoption and governance where these teams are assigned the functions of cloud operations and cloud plaftorm.
+As described in this [link](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor/observability) we recommend establishing a monitoring plan that starts with what is minimally viable or most important to monitor and observe.
+Establish initial visibility of the consumption, performance, security, and availability of the resources in your Azure resource groups and your Azure Active Directory tenant. 
+
+Observability using your Minimal Viable Product (MVP) monitoring plan will evolve gradually. As you get comfortable with the data (that is, metrics, logs, and transactions), you'll be able to understand the behavior and signs of symptoms or issues from those resources or applications. 
+
+The informatio below is based on the MVP of two teams: Cloud Adoption and Cloud Governance where these teams are assigned the functions of Cloud Operations and Cloud Plaftorm as defined [here](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/organize/organization-structures#best-practice-minimum-viable-product-mvp).
 
 Consider this sample architecture which is hosted in a single region:
 
@@ -98,10 +103,29 @@ We should ask ourselves these core questions:
 3. [How](monitoring.md#how) - Which tools are we going to use?
 4. [Optimisation](monitoring.md#optimise) - How can we review & improve our monitoring posture?
 
+## Start your Monitoring Plan
+
+As described [here](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor/observability#monitoring-plan) you should start your monitoring plan early and consider the five key dissciplines: observe, measure, respond, learn, and improve.
+
+Let the plan define the minimum viable product, that is what is initially needed to go live, then continue to evolve the monitoring solution to maximize value. Make sure that you consider the following perspectives:
+
+- What does the business require?
+- What do the service owners need?
+- What technical options are available to us?
+
+### Create User Stories to identify what is required
+
+As a starting point, you should consider making a list of User Stories. A User Story is an end state that describes something as told from the perspective of the person desiring the functionality. It is widely used in software development as a small unit of work. 
+
+<insert Will's example table redacted to give generic examples>
+
+
+
+
 ## Cloud Platform Monitoring
 ### Who ###
 
-Remember that, in this example, we are considering the two-team MVP organisational model: Adoption and Governance.
+Remember that, in this example, we are considering the two-team MVP organisational model: Cloud Adoption and Cloud Governance.
 The logs and metrics we are capturing will fit into one of three groups:
 
 - Cloud Platform: Platform logs and metrics provide detailed diagnostic and auditing information for Azure resources and the Azure platform they depend on.
@@ -109,7 +133,7 @@ The logs and metrics we are capturing will fit into one of three groups:
 - Security: Logs and metrics associated with identity and access control, change audit, vulnerability detection and DDoS events 
 
 Referencing the roles here (insert link to Will's doc), the following roles map to the two teams:
-(insert roles and assign to one of the two teams)
+(insert roles and assign to one of the two teams) ??Do we still need this?
 
 ### What ###
 
@@ -133,20 +157,21 @@ Considering the sample architecture, we have the following components to conside
 - Azure Active Directory https://learn.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor
 - Security Microsoft Defender for Cloud (need URL)
 
-Listing all of the logs and metrics involved reviewing the Azure documentation and the corresponding links have been included above for your convenience.
+Listing all of the logs and metrics involves reviewing the Azure documentation and the corresponding links have been included above for your convenience.
 
-In this example, we would advocate the following logs and metrics based on both the [Cloud Adoption Framework Landing Zone design](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) and [Well-Architected Framework](https://learn.microsoft.com/en-us/azure/architecture/framework/) documentation:
+In this example, we would advocate the following logs and metrics based on both the [Cloud Adoption Framework Landing Zone design](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) and [Well-Architected Framework](https://learn.microsoft.com/en-us/azure/architecture/framework/) documentation.
 
 ### The First Steps
 
 Considerations:
-- Establish a basline of services
+- Establish a basline of services based on the User Stories defined previously
 - Consider using tools such as an Azure Monitor Log Analytics workspace as administrative boundaries
 
 Recommendations:
 - Deploy a central Log Analytics workspace for platform operations. This will be in your Management subscription as part of the platform.
 
 ### Azure Firewall
+To address this User Story <insert specific story>
 TBD
 
 ### Internal Load Balancer
@@ -182,12 +207,12 @@ Application Logs and metrics:
 Create separate LAW in spoke subscription?? Need to check ALZ guidance
 
 Azure Monitor workbooks on github - https://github.com/microsoft/AzureMonitorCommunity/tree/master/Scenarios
+
+INCLUDE ALERTS???
+    
 TBC
 
-### Optimise ###
-
-TBD
-
+  
 ## Application Monitoring
 
 ###The First Steps
@@ -203,7 +228,9 @@ App Insights
 
 
 
+### Optimise ###
 
+TBD
 
 
 
