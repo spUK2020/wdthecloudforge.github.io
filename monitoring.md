@@ -159,12 +159,10 @@ Considering the sample architecture, we have the following components to conside
 
 Listing all of the logs and metrics involves reviewing the Azure documentation and the corresponding links have been included above for your convenience.
 
-In this example, we would advocate the following logs and metrics based on both the [Cloud Adoption Framework Landing Zone design](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/) and [Well-Architected Framework](https://learn.microsoft.com/en-us/azure/architecture/framework/) documentation.
-
 ### The First Steps
 
 Considerations:
-- Establish a basline of services based on the User Stories defined previously
+- Establish a baseline of monitoring services based on the relevant User Stories defined previously
 - Consider using tools such as an Azure Monitor Log Analytics workspace as administrative boundaries
 
 Recommendations:
@@ -203,12 +201,11 @@ Cloud Platform Logs and metrics:
 Create one or more Log Analytics workspaces.
 1 per region as per guidelines - these will capture platform logs. 
 
-Application Logs and metrics:
-Create separate LAW in spoke subscription?? Need to check ALZ guidance
+
 
 Azure Monitor workbooks on github - https://github.com/microsoft/AzureMonitorCommunity/tree/master/Scenarios
 
-INCLUDE ALERTS???
+INCLUDE ALERTS
     
 TBC
 
@@ -217,13 +214,18 @@ TBC
 
 ###The First Steps
 
+### Who
+  
+  
+### What
+  
 Considerations:
 
 Recommendations:
 - Deploy a workload-specific Log Analytics workspace for application logging. This will be in your workload subscription.
-
-### Application Logging
-
+Application Logs and metrics:
+Create separate LAW in spoke subscription?? Need to check ALZ guidance
+  
 App Insights
 
 
