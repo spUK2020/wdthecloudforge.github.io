@@ -115,11 +115,31 @@ Let the plan define the minimum viable product, that is what is initially needed
 
 ### Create User Stories to identify what is required
 
-As a starting point, you should consider making a list of User Stories. A User Story is an end state that describes something as told from the perspective of the person desiring the functionality. It is widely used in software development as a small unit of work. 
+As a starting point, you should consider making a list of User Stories. A User Story is an end state that describes something as told from the perspective of the person desiring the functionality. It is widely used in software development as a small unit of work. You can then categorise your stories into different sections together with a success criteria referred to as "Definition of Done" (DoD):
 
-<insert Will's example table redacted to give generic examples>
+- ‘Alerts'
+  - Definition: Notifications when monitored thresholds are breached
+  - Media: email, text, alarm console
+   
+- ‘Performance’
+  - Definition: Monitored values and alerts over time
+  - Media: performance console, emailed reports
 
+- ‘Troubleshooting’
+  - Definition: <TBD>
+  - Media: <TBD>
 
+Now, in discussion with <TEAMs>, you can begin to compile a list that will look something similar to this:
+
+| Title                   | Action        |  Comments|
+| ----------------------- |---------------| -----------------------------------------------------------------------------------------------|
+| VPN Connectivity Alerts |  Story        |  As a ‘Cloud Operations Engineer’ I want to be able to receive an alert notification by email  | 
+|                         |               |  when connectivity from Azure to on-prem over the VPN connection fails, this is so that I      | 
+|                         |               |  can immediately investigate and remediate the issue.                                          | 
+|                         |   DoD         |  • Packet transfer from Azure NIC to on-prem NIC over the VPN link fails to arrive.            |
+|                         |               |  • Alert notification email received to the ‘cloud support engineering’ email alias within     | 
+|                         |               |  15 minutes of the occurrence.
+  
 
 
 ## Cloud Platform Monitoring
